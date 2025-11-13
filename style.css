@@ -1,0 +1,115 @@
+*{
+    margin:0px;
+    font-family: "inter";
+    
+    
+}
+
+#titulo-menu-superior{
+
+    margin-top: 50px;
+    margin-left: 62px;
+
+}
+
+#texto-menu-superior{
+    margin-top: 15px;
+    margin-left: 62px;
+    font-size: 15px;
+
+}
+
+
+
+#menusuperior{
+background-image: url(imagens/background_menu_superior.svg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+color: rgb(255, 255, 255);
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+#menuinformacional{
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    
+}
+
+.titulo-informacional{
+    margin: 50px 0px 50px 200px;
+    font-size: 35px;
+}
+
+.texto-menu-informacional{
+    
+    font-size: 15px;
+}
+
+#secao-menu-historia{
+ display: grid;
+ grid-auto-flow: column;
+ columns: auto;
+
+} 
+#titulo-anuncio{
+    margin: 300px -300px 70px 120px
+}
+
+#texto-anuncio{
+     margin: -50px 50px 70px 120px;
+     font-size: 20px;
+}
+
+#imagem-anuncio{
+    width: 510px;
+    height: 605px;
+    margin: 100px 100px 50px 50px;
+}
+
+#formulario{
+margin-top: 50px;
+text-align: center;
+background-image: url(imagens/background_menu_superior.svg);
+padding: 100px;
+
+}
+
+#texto-formulario{
+    font-size: 30px;
+    color: #F9F9F9;
+    
+    
+}
+
+input{
+    margin-top: 50px;
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    border: 0px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: "Raleway"
+    
+}
+
+button{
+    background-color: #C07212;
+    color: #F9F9F9;
+    margin-top: 75px;
+    width: 280px;
+    height: 74px;
+    border-radius: 10px;
+    border: 0px;
+    font-family: "Raleway", sans-serif; 
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    
+}
